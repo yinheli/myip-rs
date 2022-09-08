@@ -1,9 +1,14 @@
 [package]
 name = "myip"
-version = "0.1.0"
+version = "0.2.0"
+edition = "2021"
 authors = ["yinheli <me@yinheli.com>"]
-edition = "2018"
+keywords = ["tool", "myip"]
+license = "Apache-2.0"
+repository = "https://github.com/yinheli/myip-rs"
+homepage = "https://github.com/yinheli/myip-rs"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+ureq = "2.5"
